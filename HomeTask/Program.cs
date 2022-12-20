@@ -1,0 +1,12 @@
+﻿var employee = new Employee (123,"Mumtoz","Sharipovv",3000);
+System.Console.Write("Name: ");
+System.Console.WriteLine(employee.GetFirstName());
+System.Console.Write("SurName: ");
+System.Console.WriteLine(employee.GetLastName());
+System.Console.Write("Maosh: ");
+System.Console.WriteLine(employee.GetSalary());
+System.Console.Write("Id: ");
+System.Console.WriteLine(employee.GetId());
+employee.SetSalary(2500);
+System.Console.Write("Maosh Alish Shud ");
+System.Console.WriteLine(employee.GetSalary());
